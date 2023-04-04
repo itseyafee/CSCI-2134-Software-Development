@@ -1,0 +1,80 @@
+Fix List
+==========
+
+Student1BannerID: B00904384
+Student1Name: Eyafee Al Hossain
+Student1CSID: ehossain
+
+You may work as a group with a second student but do not have to.
+Only one student in a group should submit the lab.
+
+Student2BannerID:
+Student2Name:
+Student2CSID:
+
+For each bug, please provide the following information:
+  - location
+  - what was fixed
+  - amount of time it took
+
+Example:
+Defect 1:
+  Location: getWidth(): line 261
+  Fix: wrong return value, should be width not height
+  Time: 5 minutes
+
+Defect 2:
+  Location: Matrix file Line 99
+  Fix: Unnecessary Semicolon
+  Time: 4 min
+
+Defect 3:
+  Location: Matrix File line 223
+  Fix: String Concatenation used string builder.
+  Time: 5 min
+
+Defect 4:
+  Location: Matrix File Line 96
+  Fix: In loop it was less than equal, it should not be equal
+  Time: 5 min
+
+Defect 5:
+  Location:  Matrix file Get element line 248
+  Fix: it started from 1 not 1
+  Time: 6 Min
+
+Defect 6:
+ Location: Matrix file Set element line 260
+ Fix: it started from 1 not 1
+ Time: 7 Min
+
+Defect 7:
+  Location: Matrix File Line 116
+  Fix: Problems was in Index
+  Time: 5 Min
+
+Defect 8:
+  Location: Matrix File Line 165
+  Fix: There was a Problem on second Loop
+  Time: 6 Min
+
+
+
+
+
+
+*********** ADD AS MANY MORE AS NEEDED *******************
+
+ANALYSIS:
+
+1. Compute how long it took you to complete all the bug fixes and the average time per bug fix.
+
+Total time: 48 min
+Number of bugs: 8
+Average time per bug fix: 6 min
+
+2. What was the hardest bug you fixed and what made it hard to fix?
+String concatenation One
+
+3. How consistent was your time to fix each bug? What factors may have affected that consistency?
+Very Consistent. Nothing.

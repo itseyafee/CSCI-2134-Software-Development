@@ -1,0 +1,37 @@
+Bug Report
+==========
+
+For each bug, please provide the following information:
+  - Method name
+  - Test method name
+  - Message produced by the test method
+  - Suggest a way that the bug revealed by the test can be fixed.
+  - Any additional comments or analysis that the test revealed.
+
+Example:
+Error 0:
+  Method: getElem()
+  Test Method: testgetElem_unicorn()
+  Message: getElem_unicorn() did not return a Unicorn
+  Suggestion: Implement a Unicorn class
+  Comments: Java does not have a standard Unicorn class
+
+Error 1:
+  Method: setElem()
+  Test Method: testsetElem_unicorn()
+  Message: setElem_unicorn() did not set a Unicorn
+  Suggestion: Implement a Unicorn class
+  Comments: Java does not have a standard Unicorn class
+
+Error 2:
+  Method: multiplyWithScalar()
+  Test Method: multiplyWithScalarTest()
+  Message: Did not multiply with Scalar properly
+  Suggestion: Incrementation started in this method from 1 which made this program
+              confused it works with only one input. If its start with 0 then it will
+              output the exact result of matrix multiplication
+  Comments: I created a 2 by 2 matrix and put input 1,2,3,4 and initialized double and
+            multiplied with 2.0 but my result does not match with programs output.
+
+
+*********** ADD AS MANY MORE AS NEEDED *******************
