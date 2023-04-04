@@ -1,0 +1,30 @@
+List of Refactorings
+====================
+
+Name/Banner# of Developer 1: Eyafee Al Hossain/B00904384
+Name/Banner# of Developer 2: Md Ahasanul Karim Ahasan/ B00905168
+
+Refactorings:
+=============
+
+0. EXAMPLE:  
+   File: AngryBot.java
+   Location (method/approx. line #): getNextMove(), line 54
+   Issue Idetified: Magic number
+   Description of fix:  Replaced with constant EMPTY_DISTRICT_PENALTY
+
+1. File: BullyBot.java
+   Location (method/approx. line #): Line 64
+   Issue Idetified: Unnecessary code
+   Description of fix: Clear the unnecessary code
+
+2. File: District.java
+   Location (method/approx. line #): Line 118
+   Issue Idetified: checks whether the getAdjoiningDistrict method returns a non-null value
+   Description of fix: insert Assertion
+
+3. File: Dohnat.java
+   Location (method/approx. line #): Line 185
+   Issue Idetified: No string biuilder
+   Description of fix: Added String builder
+
