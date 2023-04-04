@@ -1,0 +1,56 @@
+Bug Report
+==========
+
+For each bug, please provide the following information:
+  - Class name
+  - Method name
+  - Test method name
+  - Message produced by the test method
+
+Example:
+Error 0:
+  Class: Link
+  Method: toString()
+  Test Method: testToString_sorted()
+  Message: toString with sorted city names returned wrong string
+
+Error 1:
+  Class: Link
+  Method: toString()
+  Test Method: testToString_unsorted()
+  Message: toString with unsorted city names returned wrong string
+
+Error 2:
+  Class: CityTest
+  Method: compareTo()
+  Test Method: compareTo()
+  Message: City 3 should be alphanumerically smaller
+
+Error 3:
+  Class: CityTest
+  Method: compareTo()
+  Test Method: compareTo()
+  Message: Cities were incorrectly compared
+
+
+Error 4:
+  Class: LinkTest
+  Method:getLinksTo()
+  Test Method: getLinksTo()
+  Message:It never reached in the getLinksTo() method, and it always returned true.
+
+Error 5:
+  Class: LinkTest
+  Method:isUsed()
+  Test Method: isUsed()
+  Message: Boolean expression is wrong
+
+Error 6:
+  Class: LinkTest
+  Method: getAdj()
+  Test Method: getAdj()
+  Message: Wrong city returned
+
+
+
+*********** ADD AS MANY MORE AS NEEDED *******************
