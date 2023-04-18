@@ -1,0 +1,50 @@
+List of Refactorings
+====================
+
+Name/Banner# of Developer 1: Eyafee Al Hossain / B00904384
+Name/Banner# of Developer 2: Md Ahasanul Karim Ahasan / B00905168
+
+Refactorings:
+=============
+
+0. EXAMPLE:  
+   File: SpressoBot.java, ChickenBot.jaba, AngryBot.java, TimBot.java
+   Location (method/approx. line #): getNextMove()
+   Issue Identified: Common code to check if move will result in
+                    energy use and decrement energyLevel if that 
+                    is the case
+   Description of fix:  Push the common code into TimBot.java, creating a
+                        protected method to be used instead.
+   Implemented: Yes (Completely, all tests pass)
+
+1. File: District.java
+   Location (method/approx. line #): doBattlePhase(), doFirePhase(), fireAtDistrict()
+   Issue Identified: The district class has more roles like sensing and firing
+   Description of fix: It should be converted into two classes.
+   Implemented: No
+
+2.File:  AngryBot.java, SpressoBot.java, TimBot.java
+   Location (method/approx. line #): getNextMove()
+   Issue Identified: Common code for finding the lowest score.
+   Description of fix: Transferred all common code to TimBot.java creating a method name getLowestScore().
+   Implemented: Yes (Completely, all tests pass)
+
+3. File: Timbot.java
+   Location (method/approx. line #): fireCannon()
+   Issue Identified: fireCannon() method does not have any functionality in Timbot.java
+   Description of fix: fireCannon() should be moved to Bullybot.java
+   Implemented: No
+
+4. File:
+   Location (method/approx. line #):
+   Issue Identified:
+   Description of fix:
+   Implemented:
+
+5. File:
+   Location (method/approx. line #):
+   Issue Idetified:
+   Description of fix:
+   Implemented:
+
+
